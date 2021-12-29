@@ -1,0 +1,21 @@
+// Main iPod container
+#ipod-main {
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    border-radius: 25px;
+    background-color: rgb(187, 187, 187);
+    padding-top: 20px;
+    border: 1px solid red;
+}
+
+// iPod screen
+#screen {
+    width: 250px;
+    height: 225px;
+    background-color: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
