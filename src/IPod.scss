@@ -1,3 +1,6 @@
+// Import font-awesome
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
 // Main iPod container
 #ipod-main {
     margin: 5vh auto;
@@ -8,11 +11,11 @@
     border-radius: 25px;
     background-color: rgb(187, 187, 187);
     padding-top: 20px;
-    border: 1px solid red;
 }
 
 // iPod screen
 #screen {
+    position: relative;
     width: 250px;
     height: 225px;
     background-color: white;

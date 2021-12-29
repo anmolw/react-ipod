@@ -14,6 +14,7 @@
     width: 175px;
     height: 175px;
     border-radius: 50%;
+    color: rgb(99, 99, 99);
     >* {
         cursor: default;
     }
@@ -40,6 +41,7 @@
 #wheel-menu {
     @include absPos(15%, 50%);
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 #wheel-prev {
@@ -52,4 +54,9 @@
 
 #wheel-play-pause {
     @include absPos(85%, 50%);
+    font-size: 0.75em;
+    // Add some spacing between the pause & play icons
+    >* {
+        padding: 1px;
+    }
 }
